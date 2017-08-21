@@ -2131,6 +2131,7 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
+    width: 142px;
 }
 
 .btn-danger:hover {

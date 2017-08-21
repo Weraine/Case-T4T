@@ -73,6 +73,12 @@
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap.min.css.map" />
     <None Include="packages.config" />
+    <Content Include="css\StyleSheet.css" />
+    <Content Include="images\20160623-cubano-roast-pork-sandwich-recipe-21-1-916x419.jpg" />
+    <Content Include="images\images.jpe" />
+    <Content Include="images\Sandwich-AvocadoBLT.jpg" />
+    <Content Include="images\SandwichWingmanBanner.jpg" />
+    <Content Include="images\sandwich_met_avocado_en_zalm-650x431.jpg" />
     <Content Include="Shop.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -90,6 +96,7 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="ShopHome.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +107,13 @@
     </Compile>
     <Compile Include="Shop.Master.designer.cs">
       <DependentUpon>Shop.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ShopHome.aspx.cs">
+      <DependentUpon>ShopHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShopHome.aspx.designer.cs">
+      <DependentUpon>ShopHome.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

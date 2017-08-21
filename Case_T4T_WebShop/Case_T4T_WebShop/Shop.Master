@@ -10,9 +10,22 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <div id ="wrapper">
+            <div id="banner">           
+
+            </div>
+            <div id ="content_area" class="container">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+            <div id ="sidebar" class="show">
+
+            </div>
+            <div id ="footer" class="modal-footer">
+                <p>all rights reserved</p>
+            </div>
         </div>
     </form>
 </body>
