@@ -72,13 +72,14 @@
     <Content Include="css\bootstrap-reboot.min.css.map" />
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="WebForm1.aspx" />
     <None Include="packages.config" />
     <Content Include="css\StyleSheet.css" />
-    <Content Include="images\20160623-cubano-roast-pork-sandwich-recipe-21-1-916x419.jpg" />
-    <Content Include="images\images.jpe" />
-    <Content Include="images\Sandwich-AvocadoBLT.jpg" />
+    <Content Include="images\pork.jpg" />
+    <Content Include="images\hamkaas.jpe" />
+    <Content Include="images\blt.jpg" />
     <Content Include="images\SandwichWingmanBanner.jpg" />
-    <Content Include="images\sandwich_met_avocado_en_zalm-650x431.jpg" />
+    <Content Include="images\avocado.jpg" />
     <Content Include="Shop.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -100,6 +101,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cs\Connection.cs" />
+    <Compile Include="cs\ControllFinder.cs" />
+    <Compile Include="cs\Sandwich.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shop.Master.cs">
       <DependentUpon>Shop.Master</DependentUpon>
@@ -115,7 +119,15 @@
     <Compile Include="ShopHome.aspx.designer.cs">
       <DependentUpon>ShopHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
