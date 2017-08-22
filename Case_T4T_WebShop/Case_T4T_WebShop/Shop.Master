@@ -31,11 +31,14 @@
                 </asp:ContentPlaceHolder>
 
             </div>
-            <div id ="sidebar" class="show">
+            <div id ="content_area" class="container">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
 
             </div>
             <div id ="footer" class="modal-footer">
-                <p>all rights reserved</p>
+                <p>All rights reserved.</p>
             </div>
         </div>
     </form>

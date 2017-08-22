@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Case_T4T_WebShop.cs;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace Case_T4T_WebShop
         protected void Page_Load(object sender, EventArgs e)
         {
             FillPanel();
+            GetOrder();
         } 
         private void FillPanel()
         {
@@ -31,10 +33,10 @@ namespace Case_T4T_WebShop
                 };
                 TextBox textBox = new TextBox
                 {
-                    ID = sandwich.Name,
+                    ID = sandwich.Id.ToString(),
                     CssClass = "ProductsTextBox",
                     Width = 60,
-                    Text = "0"
+                    Text = "1"
                 };
 
                 //Add controls to Panels
@@ -46,6 +48,34 @@ namespace Case_T4T_WebShop
 
                 Panel1.Controls.Add(coffeePanel);
             }
+        }
+        private void GetOrder()
+        {
+            //Get list of Textbox objects in ContentPlaceHolder
+            ContentPlaceHolder cph = (ContentPlaceHolder)Master.FindControl("ContentPlaceHolder1");
+            ControllFinder<TextBox> cf = new ControllFinder<TextBox>();
+            cf.FindChildControlsRecursive(cph);
+            var textBoxList = cf.FoundControls;
+
+            //Create orders using data from textfields
+            ArrayList orderList = new ArrayList();
+
+            foreach (TextBox textBox in textBoxList)
+            {
+                //Make sure textbox.Text is not null
+                if (textBox.Text != "")
+                {
+                    int amountOfOrders = Convert.ToInt32(textBox.Text);
+
+                    //Generate Order for each textbox which has an order greater than 0
+                    if (amountOfOrders > 0)
+                    {
+                        cs.Sandwich sandwich = Connection.GetSandwichById(Convert.ToInt32(textBox.ID));
+                        //Label1.Text = sandwich.Details;
+                    }
+                }
+            }
+            //return orderList;
         }
     }
 }
