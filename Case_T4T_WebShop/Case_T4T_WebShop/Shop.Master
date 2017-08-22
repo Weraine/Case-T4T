@@ -3,6 +3,17 @@
 <!DOCTYPE html>
 
 <html>
+
+    <script language="C#" runat="server">
+
+        protected void FancyBtn_Click(object sender, EventArgs e)
+        {
+            //smoopylabel.Text = sender.ToString();
+            //; 
+        }
+
+</script>
+
 <head runat="server">
     <title>Crusty's Sandwich Shop</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -12,7 +23,7 @@
     <form id="form1" runat="server">
         <div id ="wrapper">
             <div id="banner">           
-
+                 
             </div>
             <div id ="content_area" class="container">
 
