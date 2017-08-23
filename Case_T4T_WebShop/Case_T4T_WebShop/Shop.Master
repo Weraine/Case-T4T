@@ -8,7 +8,6 @@
 
         protected void FancyBtn_Click(object sender, EventArgs e)
         {
-            //smoopylabel.Text = sender.ToString();
             //; 
         }
 
