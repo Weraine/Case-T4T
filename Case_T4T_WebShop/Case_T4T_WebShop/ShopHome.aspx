@@ -9,13 +9,13 @@
 
 <asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder2">
     <asp:Label ID="Naam" runat="server" Text="Naam :       "></asp:Label>
-&nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+&nbsp;<asp:TextBox ID="NameBox" runat="server"></asp:TextBox>
     <br />
     <asp:Label ID="AchterNaam" runat="server" Text="Achternaam : "></asp:Label>
-    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    <asp:TextBox ID="AchterNBox" runat="server"></asp:TextBox>
     <br />
     <asp:Label ID="Mail" runat="server" Text="E-Mail adress : "></asp:Label>
-    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+    <asp:TextBox ID="MailBox" runat="server"></asp:TextBox>
     <br />
     <br />
     <asp:Label ID="confirmOrderLbl" runat="server" Text="Do you want to order ?" Visible="False"></asp:Label>
