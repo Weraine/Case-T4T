@@ -40,13 +40,13 @@ namespace Case_T4T_WebShop {
         protected global::System.Web.UI.WebControls.Label Naam;
         
         /// <summary>
-        /// NameBox control.
+        /// nameBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NameBox;
+        protected global::System.Web.UI.WebControls.TextBox nameBox;
         
         /// <summary>
         /// AchterNaam control.
@@ -58,13 +58,13 @@ namespace Case_T4T_WebShop {
         protected global::System.Web.UI.WebControls.Label AchterNaam;
         
         /// <summary>
-        /// AchterNBox control.
+        /// bNameBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox AchterNBox;
+        protected global::System.Web.UI.WebControls.TextBox bNameBox;
         
         /// <summary>
         /// Mail control.
@@ -76,13 +76,13 @@ namespace Case_T4T_WebShop {
         protected global::System.Web.UI.WebControls.Label Mail;
         
         /// <summary>
-        /// MailBox control.
+        /// mailBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MailBox;
+        protected global::System.Web.UI.WebControls.TextBox mailBox;
         
         /// <summary>
         /// confirmOrderLbl control.
