@@ -103,6 +103,7 @@
   <ItemGroup>
     <Compile Include="cs\Connection.cs" />
     <Compile Include="cs\ControllFinder.cs" />
+    <Compile Include="cs\Order.cs" />
     <Compile Include="cs\Sandwich.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shop.Master.cs">
