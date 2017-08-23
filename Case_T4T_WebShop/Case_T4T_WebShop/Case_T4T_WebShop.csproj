@@ -72,15 +72,11 @@
     <Content Include="css\bootstrap-reboot.min.css.map" />
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap.min.css.map" />
-    <Content Include="WebForm1.aspx" />
     <None Include="packages.config" />
     <Content Include="css\StyleSheet.css" />
-    <Content Include="images\pork.jpg" />
-    <Content Include="images\hamkaas.jpe" />
-    <Content Include="images\blt.jpg" />
     <Content Include="images\SandwichWingmanBanner.jpg" />
-    <Content Include="images\avocado.jpg" />
     <Content Include="Shop.Master" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -119,13 +115,6 @@
     </Compile>
     <Compile Include="ShopHome.aspx.designer.cs">
       <DependentUpon>ShopHome.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
